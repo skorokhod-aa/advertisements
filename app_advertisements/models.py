@@ -47,5 +47,6 @@ class Advertisements(models.Model):
                 '<img src="{url}" style="max-width: 80px; max-height: 80px;"', url=self.image.url
             )
 
+
 class Meta:
     db_table = "advertisements"
